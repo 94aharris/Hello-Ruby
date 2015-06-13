@@ -34,7 +34,9 @@ def CountingMinutesI(str)
    end_total =  end_hours * 60 + start_minutes
   end
   minutes = end_total - start_total
+  puts(minutes.abs)
   return minutes.abs
+  
     
 end
    
